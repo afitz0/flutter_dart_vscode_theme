@@ -1,0 +1,21 @@
+{
+    "name": "gds-flutter-color-theme",
+    "displayName": "gds-flutter-color-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GDS Flutter Colors",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GDS Flutter Colors-color-theme.json"
+            }
+        ]
+    }
+}
