@@ -1,8 +1,12 @@
 {
-    "name": "gds-flutter-color-theme",
-    "displayName": "gds-flutter-color-theme",
+    "name": "flutter-dart-theme",
+    "displayName": "Flutter/Dart Theme",
     "description": "",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/afitz0/flutter_dart_vscode_theme"
+    },
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -12,10 +16,18 @@
     "contributes": {
         "themes": [
             {
-                "label": "GDS Flutter Colors",
+                "label": "Flutter/Dart (dark)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/GDS Flutter Colors-color-theme.json"
+                "path": "./themes/Flutter Dart-color-theme.json"
+            },
+            {
+                "label": "Flutter/Dart (light)",
+                "uiTheme": "vs",
+                "path": "./themes/Flutter Dart Light-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsce package"
     }
 }
